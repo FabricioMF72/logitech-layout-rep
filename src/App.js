@@ -1,8 +1,12 @@
 import './App.css';
-import Banner from "./components/banner";
+import Banner from "./components/Banner";
+import Header from "./components/Header"
 function App() {
   return (
-    <Banner/>
+    <div className="app">
+      <Banner/>
+      <Header/>
+    </div>
   );
 }
 

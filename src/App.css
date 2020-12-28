@@ -3,11 +3,42 @@
   margin: 0;
 }
 
-.banner{
+.app{
   width: 100%;
-  height: 600px;
+  height: 100%;
+  align-content: center;
+  background-image: url(./GRADIENT2-100.jpg);
+  position: ABSOLUTE;
+}
+.header-c{
+  opacity: 0;
+  position: absolute;
+}
+.navbar-item{
+  margin-left: 120px;
+  opacity: 1 !important;
 }
 .banner-img{
   width: 100%;
   height: auto;
+  position:absolute;
+}
+
+.mouse-img{
+  position: absolute;
+  width: 100%;
+}
+
+.imgC{
+  position: absolute;
+  margin-top: 300px;
+  width: 60%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: 	block;
+  background-color: #fff;
+  opacity: 0.2;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
