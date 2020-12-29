@@ -1,44 +1,93 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-.app{
+body{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   align-content: center;
   background-image: url(./GRADIENT2-100.jpg);
-  position: ABSOLUTE;
+
 }
 .header-c{
-  opacity: 0;
-  position: absolute;
-}
-.navbar-item{
-  margin-left: 120px;
-  opacity: 1 !important;
-}
-.banner-img{
   width: 100%;
   height: auto;
-  position:absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-items{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-item{
+  margin-top: 32px;
+  margin-left: 120px;
+}
+.navbar-item:first-child{
+  margin-top: 32px;
+  margin-left: -20Px;
+}
+
+.navbar-text{
+  font-size: 12pt;
+  color: #fff !important;
+}
+.header-logo{
+  margin-top: 32px;
+  margin-left: 42px ;
+  width: 163px;
+  height: 42px;
+}
+
+.banner{
+  position: relative;
+  width: 100%;
+  height:  83vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .mouse-img{
   position: absolute;
-  width: 100%;
-}
-
-.imgC{
-  position: absolute;
-  margin-top: 300px;
-  width: 60%;
-  height: 60%;
+  margin-top: 20px;
+  width: 90%;
+  max-width: 1600px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  display: 	block;
-  background-color: #fff;
-  opacity: 0.2;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  display: block;
+  PADDING-bottom: 30px;
+}
+
+.imgc{
+  position: absolute ;
+  height: 500px;
+  width: 1000px;
+  margin-left: 10%;
+  backdrop-filter: blur(5px);
+  background: radial-gradient(at 50% 0%, rgba(0,0,0,0), rgba(255,255,255,0.3));
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+}
+
+.imgc-text{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-decoration-line:underline;
+  text-decoration-color: #00B8FC;
+}
+
+.imgc-body-text{
+  width: 55%;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 12px;
 }
